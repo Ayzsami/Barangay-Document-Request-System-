@@ -72,7 +72,7 @@ body {
   height: 100vh;
   z-index: 2000; /* High Z-index for mobile overlap */
   transition: left 0.3s ease;
-  background-color: #ffffff;
+  background-color: #F6FFF1;
   overflow-y: auto;
   border-right: 1px solid #eee;
 }
@@ -101,6 +101,7 @@ body {
 /* RIGHT SIDEBAR (Mobile: Hidden) */
 .right-sidebar { display: none; }
 
+.profile-seal { }
 
 /* =========================================
    3. DESKTOP LAYOUT (Screen > 992px)
@@ -154,7 +155,7 @@ body {
     height: 100% !important;
     overflow-y: auto !important;
     border-left: 1px solid #e0e0e0;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: #00823E;
     padding: 24px;
     flex-shrink: 0;
   }
